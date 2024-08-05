@@ -1,0 +1,76 @@
+html body {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#atas {
+    padding: 10px;
+    margin: 0;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTtAh-1Xc2Fxy3ldkM1ZUmC3-Ryv87p2RXNg&s);
+
+}
+
+.judul {
+    text-align: center;
+    color: black;
+    text-shadow:
+        1px 1px 0 lightseagreen,
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        -1px 1px 0 purple;
+}
+
+.navigasi {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    
+}
+
+nav a {
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+    transition: all;
+    font-size: larger;
+    font-style: italic;
+}
+
+nav a:hover {
+    transition: 0.5s;
+    background-color: rgb(0, 191, 255);
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px ;
+    text-align: center;
+    position: fixed;
+    margin-top: 0.5rem;
+    box-sizing: 10px;
+    width: 100%;
+    height: 16%;
+}
+
+section {
+    flex: 1;
+    padding: 20px;
+    margin-right: 20px;
+
+}
+
+#g {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+}
